@@ -11,7 +11,7 @@ import cetABI from "./abi-validators.json";
 import "./csc.scss";
 import "./csc.xml";
 
-const genzAdderss = "0xEAfF084e6da9aFE8EcAB4d85de940e7d3153296F";
+const coincodileAdderss = "0xEAfF084e6da9aFE8EcAB4d85de940e7d3153296F";
 const testAddress = "0x42eAcf5b37540920914589a6B1b5e45d82D0C1ca";
 const cetContract = "0x0000000000000000000000000000000000001000";
 const weiRate = BigInt(1000000000000000000);
@@ -111,7 +111,7 @@ export class CscStakingPage extends Component {
 
     getVerifierAddress() {
         if (this.wallet.chainId === mainnetChainId) {
-            return genzAdderss;
+            return coincodileAdderss;
         }
         return testAddress;
     }

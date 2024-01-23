@@ -31,7 +31,7 @@ import "./shardeum.xml";
 import shardeumABI from "./abi-shardeum-shard.json";
 
 
-const genzAdderss = "0x5a1b57f87b59e093d332c945c66b602843099f97"; //to be added
+const coincodileAdderss = "0x5a1b57f87b59e093d332c945c66b602843099f97"; //to be added
 const testAddress = "0x42eAcf5b37540920914589a6B1b5e45d82D0C1ca";
 const shardeumContract = "0xBeBdab6DA046Bc49ffBb61fbD7b33157Eb270D05";
 const weiRate = 1000000000000000000;
@@ -131,7 +131,7 @@ export class ShardeumStaking extends Component {
 
     getVerifierAddress() {
         if (this.wallet.chainId === mainnetChainId) {
-            return genzAdderss;
+            return coincodileAdderss;
         }
         return testAddress;
     }

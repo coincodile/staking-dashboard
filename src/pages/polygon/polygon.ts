@@ -8,7 +8,7 @@ import "./polygon.scss";
 import "./polygon.xml";
 
 
-const genzAdderss = "0x5a1b57f87b59e093d332c945c66b602843099f97";
+const coincodileAdderss = "0x5a1b57f87b59e093d332c945c66b602843099f97";
 const testAddress = "0x42eAcf5b37540920914589a6B1b5e45d82D0C1ca";
 const MaticContract = "0x0000000000000000000000000000000000001010";
 const weiRate = 1000000000000000000;
@@ -107,7 +107,7 @@ export class MaticStaking extends Component {
 
     getVerifierAddress() {
         if (this.wallet.chainId === mainnetChainId) {
-            return genzAdderss;
+            return coincodileAdderss;
         }
         return testAddress;
     }

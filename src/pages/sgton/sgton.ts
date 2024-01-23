@@ -12,7 +12,7 @@ import "./sgton.scss";
 import "./sgton.xml";
 
 
-const genzAdderss = "0xeff66b4a84c8a6b69b99eb1c5e39af8fc35d13db";
+const coincodileAdderss = "0xeff66b4a84c8a6b69b99eb1c5e39af8fc35d13db";
 const testAddress = "0xeFF66B4A84C8a6b69b99EB1C5e39aF8fc35d13db";
 const sGTONContract = "0xeff66b4a84c8a6b69b99eb1c5e39af8fc35d13db";
 const weiRate = 1000000000000000000;
@@ -112,7 +112,7 @@ export class SgtonStaking extends Component {
 
     getVerifierAddress() {
         if (this.wallet.chainId === mainnetChainId) {
-            return genzAdderss;
+            return coincodileAdderss;
         }
         return testAddress;
     }

@@ -24,11 +24,11 @@
                 <img 
                     class="sidebar-card-illustration mb-2" 
                     src="./img/logo.svg" 
-                    alt="Stack with GenZ Staking" />
-                <p class="text-center mb-2"><strong>GenZ Staking</strong> group supports with premium features, partnership program, and more!</p>
+                    alt="Stack with Coincodile Staking" />
+                <p class="text-center mb-2"><strong>Coincodile Staking</strong> group supports with premium features, partnership program, and more!</p>
                 <a 
                     class="btn btn-success btn-sm" 
-                    href="//genzstaking.com/">Stake With Us!</a>
+                    href="//en.coincodile.com/">Stake With Us!</a>
             </SidebarMessage>
         </ul>
     </t>
@@ -40,7 +40,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">GenZ Staking</div>
+            <div class="sidebar-brand-text mx-3">Coincodile Staking</div>
         </a>
     </t>
 

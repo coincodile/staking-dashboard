@@ -31,7 +31,7 @@ import "./fantom.scss";
 import "./fantom.xml";
 
 
-const genzAdderss = "0x5a1b57f87b59e093d332c945c66b602843099f97";
+const coincodileAdderss = "0x5a1b57f87b59e093d332c945c66b602843099f97";
 const testAddress = "0xaa3a160e91f63f1db959640e0a7b8911b6bd5b95";
 const FantomContract = "0xFC00FACE00000000000000000000000000000000";
 const weiRate = 1000000000000000000;
@@ -130,7 +130,7 @@ export class FantomStaking extends Component {
 
     getVerifierAddress() {
         if (this.wallet.chainId === mainnetChainId) {
-            return genzAdderss;
+            return coincodileAdderss;
         }
         return testAddress;
     }
