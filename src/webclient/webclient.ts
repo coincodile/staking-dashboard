@@ -12,9 +12,9 @@ import "./webclient.scss";
 import "./webclient.xml";
 
 /**
- * Root component of the application
+ * Root component of the web application
  * 
- * This is the mani module and responsilbe to launch the app.
+ * This is the main component that is responsilbe to launch the app.
  */
 @components({
 	Footer,
