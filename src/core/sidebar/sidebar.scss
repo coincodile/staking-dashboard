@@ -34,7 +34,7 @@
             z-index: 1;
             top: 2px;
             // Grow In Animation
-            @extend .animated--grow-in;
+            // @extend .animated--grow-in;
 
             .collapse-inner {
                 border-radius: $border-radius;

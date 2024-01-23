@@ -1,5 +1,4 @@
 // Global styles
-import "./variables.scss"
 import "./main.scss";
 
 // Global services
