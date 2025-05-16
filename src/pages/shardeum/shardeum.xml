@@ -49,9 +49,7 @@
                                                 aria-label="Example text with two button addons" />
 											<button class="btn btn-outline-secondary text-center"
                                                 type="button">
-												<img class=""
-                                                    src="./img/networks-logo/shard.svg" 
-                                                    style="width: 16px" />
+                                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
 											</button>
 										</div>
 									</div>
